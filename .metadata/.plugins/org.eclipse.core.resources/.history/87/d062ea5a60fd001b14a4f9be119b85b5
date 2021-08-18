@@ -1,0 +1,14 @@
+
+public class TesteBanco {
+	public static void main(String[] args) {
+		Cliente vinicius = new Cliente();
+		vinicius.cpf = "071.606.731-58";
+		vinicius.nome = "Vinicius";
+		vinicius.profissao = "Prof";
+		
+		
+		
+		
+	}
+
+}

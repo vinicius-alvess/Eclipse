@@ -1,0 +1,6 @@
+public class MultiploDeTres {
+	for(int cont; cont <= 1000; cont++) {
+		
+	}
+
+}

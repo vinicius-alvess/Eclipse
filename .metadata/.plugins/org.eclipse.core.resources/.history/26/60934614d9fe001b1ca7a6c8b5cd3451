@@ -1,0 +1,14 @@
+
+public class TestaValores {
+	public static void main(String[] args) {
+		Conta conta = new Conta(15,51);
+		Conta contaa = new Conta(17,26);
+		Conta contaaa = new Conta(12,56);
+		
+		conta.depositar(200.0);
+		
+		System.out.println(conta.getSaldo());
+		
+	}
+
+}

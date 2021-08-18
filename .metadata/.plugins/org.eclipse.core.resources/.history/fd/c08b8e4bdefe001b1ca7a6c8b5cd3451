@@ -1,0 +1,11 @@
+
+public class Gerente extends Funcionario {
+
+	private int senha;
+
+	public boolean outenticacao(int senha) {
+		if (this.senha == senha) {
+
+		}
+	}
+}

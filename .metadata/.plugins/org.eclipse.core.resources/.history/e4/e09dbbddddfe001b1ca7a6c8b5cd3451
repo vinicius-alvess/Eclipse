@@ -1,0 +1,33 @@
+
+public class Funcionario {
+
+	private Pessoa pessoa;
+	
+	public Funcionario() {
+		
+	}
+	
+	public double getBonificacao() {
+		return pessoa.getSalario() * 0.1;
+	}
+	
+	public String getNome() {
+		return pessoa.getNome();
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCpf() {
+		return pessoa.getCpf();
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public double getSalario() {
+		return pessoa. getSalario();
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+}

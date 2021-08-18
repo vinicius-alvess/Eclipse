@@ -1,0 +1,15 @@
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		Funcionario funcionario = new Funcionario();
+		Gerente g1 = new Gerente();
+		
+		g1.setNome("gayzao");
+		g1.setCpf("546454564");
+		
+		
+		
+	}
+
+}

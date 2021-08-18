@@ -1,0 +1,24 @@
+package bytebank;
+
+public class TestaMetodo {
+
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+
+		conta.saldo = 100;
+		conta.depositar(50);
+
+		System.out.println(conta.saldo);
+
+		boolean conseguiuRetirar = conta.saca(20);
+
+		if (conseguiuRetirar) {
+			System.out.println("Operação realizada com sucesso!");
+			System.out.println("Seu saldo atual é de: " + conta.saldo);
+		}else {
+			System.out.println("Operação não realizada!");
+			System.out.println("Saldo insuficiente");
+		}
+	}
+
+}
