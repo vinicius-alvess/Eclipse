@@ -1,8 +1,0 @@
-public class MultiploDeTres {
-	public static void main(String[] args) {
-	for(int numero; numero <= 1000; numero++) {
-		if(numero % 3 == 0) {
-			  System.out.println(numero);
-			}
-	}
-}

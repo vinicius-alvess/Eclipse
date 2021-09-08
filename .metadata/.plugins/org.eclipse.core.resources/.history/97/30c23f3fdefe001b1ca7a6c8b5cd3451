@@ -1,9 +1,0 @@
-
-public class Gerente extends Funcionario{
-	
-	private int senha;
-	
-	public boolean senha(int senha) {
-		if(this.senha == senhe )
-	}
-}
